@@ -64,6 +64,7 @@ if(!book) res.status(404).send('<h2 style="font-family: Malgun Gothic; color: da
  
 const index = books.indexOf(book);
 books.splice(index,1);
+ 
 res.send(book);
 });
  
